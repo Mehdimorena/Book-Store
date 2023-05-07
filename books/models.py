@@ -9,4 +9,4 @@ class Book(models.Model):
 
 
     def __str__(self):
-        return self.title
+        return self.title   # injuri ham mishe nevesh return f'Pself.author}: {self.title}
